@@ -7,7 +7,7 @@ import '../models/review.dart';
 import '../models/card.dart';
 
 class ApiService {
-  static const String baseUrl = 'https://ezpark-platform-prueba.onrender.com/api/v1';
+  static const String baseUrl = 'https://ezpark-platform.onrender.com/api/v1';
   static String? _authToken;
   
   // Headers comunes para todas las requests
